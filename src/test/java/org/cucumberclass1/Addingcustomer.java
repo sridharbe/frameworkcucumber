@@ -29,7 +29,7 @@ public void user_clicks_on_add_customer() {
 
 @When("User filling all details")
 public void user_filling_all_details() {
-	driver.findElement(By.xpath("//label[@for='done']")).click();
+	driver.findElement(By.xpath("//label[@for='donee']")).click();
 	driver.findElement(By.id("fname")).sendKeys("sridhar");
 	driver.findElement(By.id("lname")).sendKeys("deiva");
 	driver.findElement(By.id("email")).sendKeys("sridhar@gmail.com");
