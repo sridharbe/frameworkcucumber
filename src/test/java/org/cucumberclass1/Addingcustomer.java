@@ -22,6 +22,12 @@ public void launch_the_browser() {
 }
 
 @Given("user clicks on add customer")
+public void user_clicks_on_addd_customer() {
+	driver.findElement(By.className("Add Customer for the git")).click();
+	driver.findElement(By.className("Add Customer for the git")).click();
+   
+}
+@Given("user clicks on add customer")
 public void user_clicks_on_add_customer() {
 	driver.findElement(By.className("Add Customer for the git")).click();
 	driver.findElement(By.className("Add Customer for the git")).click();
