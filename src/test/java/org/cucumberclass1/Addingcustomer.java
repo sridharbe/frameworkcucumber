@@ -23,7 +23,7 @@ public void launch_the_browser() {
 
 @Given("user clicks on add customer")
 public void user_clicks_on_add_customer() {
-	driver.findElement(By.linkText("Add Cust")).click();
+	driver.findElement(By.linkText("Add Cu")).click();
    
 }
 
